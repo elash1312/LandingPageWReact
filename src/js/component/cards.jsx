@@ -9,9 +9,9 @@ const data = {
 
 const Cards = () => {
 	return (
-		<div className="container">
+		<div className="container-fluid">
 			<div className="row">
-				<div className="col-3">
+				<div className="col-3 p-0">
 					<div className="card m-5 p-0">
 						<img
 							className="card-img-top"
@@ -27,7 +27,7 @@ const Cards = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col-3">
+				<div className="col-3 p-0">
 					<div className="card m-5 p-0">
 						<img
 							className="card-img-top"
@@ -43,7 +43,7 @@ const Cards = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col-3">
+				<div className="col-3 p-0">
 					<div className="card m-5 p-0">
 						<img
 							className="card-img-top"
@@ -59,7 +59,7 @@ const Cards = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col-3">
+				<div className="col-3 p-0">
 					<div className="card m-5 p-0">
 						<img
 							className="card-img-top"

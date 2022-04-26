@@ -5,7 +5,7 @@ const Navbar = () => {
 		<>
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col">
+					<div className="col p-0">
 						<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 							<div className="container-fluid">
 								<a className="navbar-brand" href="#">
