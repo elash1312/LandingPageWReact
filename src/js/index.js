@@ -12,7 +12,6 @@ import Jumbotron from "./component/jumbotron.jsx";
 import Cards from "./component/cards.jsx";
 
 //render your react application
-// ReactDOM.render(<Home />, document.querySelector("#app"));
 ReactDOM.render(
 	<div>
 		<Navbar />, <Jumbotron />, <Cards />
