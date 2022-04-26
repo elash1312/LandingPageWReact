@@ -2,9 +2,9 @@ import React from "react";
 
 const Jumbotron = () => {
 	return (
-		<>
+		<div className="container bg-light rounded">
 			<div className="jumbotron">
-				<h1 className="display-4">Hello, world!</h1>
+				<h1 className="display-4 font-weight-bold">Hello, world!</h1>
 				<p className="lead">
 					Lorem ipsum dolor sit amet, consectetur adipiscing // elit,
 					sed do eiusmod tempor incididunt ut labore et // dolore
@@ -18,14 +18,14 @@ const Jumbotron = () => {
 				</p>
 				<p className="lead">
 					<a
-						className="btn btn-primary btn-lg"
+						className="btn btn-primary btn-lg mb-5"
 						href="#"
 						role="button">
 						Call to action!
 					</a>
 				</p>
 			</div>
-		</>
+		</div>
 	);
 };
 

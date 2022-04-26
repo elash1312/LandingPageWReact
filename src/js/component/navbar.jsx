@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
 	return (
 		<>
-			<div className="container">
+			<div className="container-fluid">
 				<div className="row">
 					<div className="col">
 						<nav className="navbar navbar-expand-lg navbar-dark bg-dark">

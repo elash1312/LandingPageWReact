@@ -9,12 +9,13 @@ import "../styles/index.css";
 // import Home from "./component/home.jsx";
 import Navbar from "./component/navbar.jsx";
 import Jumbotron from "./component/jumbotron.jsx";
+import Cards from "./component/cards.jsx";
 
 //render your react application
 // ReactDOM.render(<Home />, document.querySelector("#app"));
 ReactDOM.render(
 	<div>
-		<Navbar />, <Jumbotron />
+		<Navbar />, <Jumbotron />, <Cards />
 	</div>,
 	document.querySelector("#app")
 );
