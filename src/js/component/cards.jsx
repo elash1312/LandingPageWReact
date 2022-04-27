@@ -7,78 +7,25 @@ const data = {
 	buttonTitle: "Button Title",
 };
 
-const Cards = () => {
+const Card = () => {
 	return (
-		<div className="container">
-			<div className="row">
-				<div className="col-sm">
-					<div className="card m-5 p-0 me-auto mb-2 mb-lg-0">
-						<img
-							className="card-img-top"
-							src={data.image}
-							alt="Card image cap"
-						/>
+		<div className="col-sm justify-content-center">
+			<div className="card m-5 p-0 me-auto mb-2 mb-lg-0">
+				<img
+					className="card-img-top"
+					src={data.image}
+					alt="Card image cap"
+				/>
 
-						<div className="card-body">
-							<h5 className="card-title">{data.title}</h5>
-							<p className="card-text">{data.text}</p>
-							<a href="#" className="btn btn-primary">
-								{data.buttonTitle}
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div className="col-sm">
-					<div className="card m-5 p-0 me-auto mb-2 mb-lg-0">
-						<img
-							className="card-img-top"
-							src={data.image}
-							alt="Card image cap"
-						/>
-						<div className="card-body">
-							<h5 className="card-title">{data.title}</h5>
-							<p className="card-text">{data.text}</p>
-							<a href="#" className="btn btn-primary">
-								{data.buttonTitle}
-							</a>
-						</div>
-					</div>
-				</div>
-				<div className="col-sm">
-					<div className="card m-5 p-0 me-auto mb-2 mb-lg-0">
-						<img
-							className="card-img-top"
-							src={data.image}
-							alt="Card image cap"
-						/>
-						<div className="card-body">
-							<h5 className="card-title">{data.title}</h5>
-							<p className="card-text">{data.text}</p>
-							<a href="#" className="btn btn-primary">
-								{data.buttonTitle}
-							</a>
-						</div>
-					</div>
-				</div>
-				<div className="col-sm">
-					<div className="card m-5 me-auto mb-2 mb-lg-0">
-						<img
-							className="card-img-top"
-							src={data.image}
-							alt="Card image cap"
-						/>
-						<div className="card-body">
-							<h5 className="card-title">{data.title}</h5>
-							<p className="card-text">{data.text}</p>
-							<a href="#" className="btn btn-primary">
-								{data.buttonTitle}
-							</a>
-						</div>
-					</div>
+				<div className="card-body">
+					<h5 className="card-title">{data.title}</h5>
+					<p className="card-text">{data.text}</p>
+					<a href="#" className="btn btn-primary">
+						{data.buttonTitle}
+					</a>
 				</div>
 			</div>
 		</div>
 	);
 };
-export default Cards;
+export default Card;
