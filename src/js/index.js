@@ -10,11 +10,12 @@ import "../styles/index.css";
 import Navbar from "./component/navbar.jsx";
 import Jumbotron from "./component/jumbotron.jsx";
 import Cards from "./component/cards.jsx";
+import Footer from "./component/footer.jsx";
 
 //render your react application
 ReactDOM.render(
 	<div>
-		<Navbar />, <Jumbotron />, <Cards />
+		<Navbar />, <Jumbotron />, <Cards />, <Footer />
 	</div>,
 	document.querySelector("#app")
 );

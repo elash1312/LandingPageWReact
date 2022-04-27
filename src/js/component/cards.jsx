@@ -9,7 +9,7 @@ const data = {
 
 const Cards = () => {
 	return (
-		<div className="container-fluid">
+		<div className="container">
 			<div className="row">
 				<div className="col-sm">
 					<div className="card m-5 p-0 me-auto mb-2 mb-lg-0">

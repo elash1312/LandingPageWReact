@@ -9,7 +9,7 @@ const data = {
 
 const Jumbotron = () => {
 	return (
-		<div className="container-fluid bg-light rounded">
+		<div className="container bg-light rounded">
 			<div className="jumbotron">
 				<h1 className="display-4 font-weight-bold">
 					{data.jumbotronTitle}
